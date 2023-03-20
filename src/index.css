@@ -1,0 +1,98 @@
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+
+  line-height: 1.5;
+  font-weight: 400;
+
+}
+.container {
+  max-width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  min-height: 100vh;
+}
+
+.note {
+  background-color: #9dfe8a;
+
+  border-radius: 10px;
+  padding: 1rem;
+  min-height: 170px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  white-space: pre-wrap;
+}
+.note-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.notes-list {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+.note.new {
+  background-color: rgb(228, 147, 41);
+}
+textarea {
+  resize: none;
+  border: none;
+  background: transparent;
+}
+textarea:focus {
+  outline: none;
+}
+
+.save {
+  background-color: #dfe7de;
+  border: none;
+  border-radius: 15px;
+  padding: 5px 10px;
+}
+.save:hover {
+  background-color: rgb(233, 99, 66);
+  cursor: pointer;
+}
+.delete-icon {
+  cursor: pointer;
+  border-radius: 10px;
+}
+.delete-icon:hover {
+  background-color: red;
+}
+.search {
+  display: flex;
+  align-items: center;
+  background-color: rgb(233, 233, 233);
+  border-radius: 10px;
+  padding: 5px;
+  margin-bottom: 1.5em;
+}
+
+.search input {
+  border: none;
+  background-color: rgb(233, 233, 233);
+}
+.search input:focus {
+  outline: none;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.dark-mode h1 {
+  color: white;
+}
+
+.dark-mode {
+  background-color: rgb(54, 52, 52);
+  wi
+}
+
